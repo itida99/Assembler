@@ -1,0 +1,22 @@
+INP X ;jkasdnoajsdn
+INP Y
+CLA
+LAC X
+SUB Y
+BRP L
+LAC Y
+SAC R
+BRP flg ;\\cmmt
+L: LAC X
+SAC R
+DSP R
+LAC A
+DIV B
+DSP R1
+DSP R2
+DS X=0
+DS Y=0
+DS R=0
+DC A=7
+DC B=5
+flg: STP
